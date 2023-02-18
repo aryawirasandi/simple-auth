@@ -1,22 +1,22 @@
 {
-    "compilerOptions": {
-        "moduleResolution": "Node",
-        "target": "ESNext",
-        "module": "ESNext",
-        "checkJs": false,
-        "types": [
-          "vitest",
-          "node",
-          "vite/client",
-          "react",
-          "react-router"
-        ]
-      },
-      "include": [
-        "src/**/*.d.ts",
-        "src/**/*.js",
-        "src/**/*.jsx",
-        "src/test/*.test.js",
-        "src/test/app.test.js"
-      ]
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "checkJs": false,
+    "types": [
+      "jest",
+      "node",
+      "vite/client",
+      "react",
+      "react-router"
+    ]
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/test/*.test.js",
+    "src/test/app.test.js"
+  ]
 }
