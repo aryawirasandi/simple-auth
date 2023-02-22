@@ -9,10 +9,10 @@ export default defineConfig({
     AutoImport({
       include: [
         /\.[tj]sx?$/,
-      ],    
+      ],
       imports: [
         {
-          'react':[
+          'react': [
             'useEffect',
             'useState'
           ]
@@ -20,7 +20,7 @@ export default defineConfig({
       ],
       defaultExportByFilename: true,
       dirs: [
-        'src',
+        'src/**',
         'src/components',
         'src/pages'
       ],
