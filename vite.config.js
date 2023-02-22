@@ -20,9 +20,11 @@ export default defineConfig({
       ],
       defaultExportByFilename: true,
       dirs: [
+        'src',
         'src/components',
         'src/pages'
       ],
+      cache: true,
       reactComponent: true
     })
   ],
