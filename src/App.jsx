@@ -1,9 +1,12 @@
-function App() {
+import { Outlet } from "react-router-dom"
+export default function Homepage() {
   return (
-    <p className='text-center'>
-        Hello Auth
-    </p>
+    <>
+      <Navbar />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
   )
 }
-
-export default App
