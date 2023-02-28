@@ -20,6 +20,7 @@ export default defineConfig({
       defaultExportByFilename: true,
       dirs: [
         'src/**',
+        'src/layouts',
         'src/components',
         'src/pages'
       ],
