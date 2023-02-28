@@ -1,3 +1,9 @@
 export default function Homepage() {
-    return <h1>Homepage</h1>
+    return <>
+        <Card>
+            <h1 className="text-2xl">Simple Auth App</h1>
+            <h2>Description</h2>
+            <p>This app was build in order to practice with react knowledge</p>
+        </Card>
+    </>
 }
